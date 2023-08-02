@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 464px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 14px 52px -20px #8675B4;
+    padding: 72px;
+    position: absolute;
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.search {
+    display: flex;
+    width: 348px;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    display: inline-flex;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #281A51;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.box {
+    width: 112px;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.box-shadow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 421px;
+    height: 613px;
+    border-radius: 31px;
+    background: #EFEBFD;
+    z-index: 0;
+
+}
+
+.box:nth-child(1) {
+    background: #FFECEC;
+}
+
+.box:nth-child(2) {
+    background: #F7ECFF;
+}
+
+.box:nth-child(3) {
+    background: #ECF0FF;
+}
+
+.box:nth-child(4) {
+    background: #D7F9F3;
+}
+
+.box:nth-child(5) {
+    background: #E2FFD4;
+}
+
+.box:nth-child(6) {
+    border: 1px solid #DBD5EC;
+    background: #FFF;
+    box-shadow: 0px 14px 16px 0px rgba(41, 11, 128, 0.10);
+}
+
+.box:nth-child(7) {
+    background: #FFF3C9;
+}
+
+.box:nth-child(8) {
+    background: #FFD9C9;
+}
+
+p {
+    color: #281A51;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.search p {
+    color: rgba(40, 26, 81, 0.54);
+}
+
+.button p {
+    color: #FFF;
+}
